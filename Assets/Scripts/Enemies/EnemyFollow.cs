@@ -33,7 +33,8 @@ public class EnemyFollow : MonoBehaviour
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(this.transform.position, _radius);
-		Gizmos.DrawWireSphere (transform.position, _enemyAttack.AttackRange);
+		//Gizmos.DrawWireSphere (transform.position, _enemyAttack.AttackRange);
+        Gizmos.DrawWireCube(transform.position, new Vector3(_enemyAttack.AttackRange, 1, 0));
     }	
 
     void FollowPlayerTarget()

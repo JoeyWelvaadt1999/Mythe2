@@ -43,9 +43,7 @@ public class EnemyAttack : MonoBehaviour
 
 	public void Attack() {
 		if (Vector2.Distance (transform.position, _enemyFollow.PlayerTarget.position) <= _attackRange) {
-
-			_isAttacking = true;
-
+            _isAttacking = true;
 			EnemyStates._states = States.Attacking;
 			_enemyFollow.ChangeLookDirection ();
 

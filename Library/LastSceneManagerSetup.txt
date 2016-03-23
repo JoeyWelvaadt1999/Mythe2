@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Denzel/testscene_denzel.unity
+  isLoaded: 1
+  isActive: 1
