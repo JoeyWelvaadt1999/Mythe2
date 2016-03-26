@@ -10,7 +10,6 @@ public class WeaponEquip : MonoBehaviour
     private List<GameObject> _weapons = new List<GameObject>();
     [SerializeField]
     private GameObject _weaponSpawnPoint;
-    private IWeapon currWeapon;
     private GameObject w;
 
     void Awake()
@@ -22,14 +21,14 @@ public class WeaponEquip : MonoBehaviour
         _weaponList.Add(clubWeapon);
         _weaponList.Add(spearWeapon);
         _weaponList.Add(bearClawWeapon);
+
+        for (int i = 0; i < _weapons.Count; i++)
+        {
+            _weapons[i].SetActive(false);
+        }
+        
     }
-
-	// Use this for initialization
-	void Start ()
-    {
-
-    }
-
+    
     public void EquipWeapon(IWeapon newWeapon)
     {
         equippedWeapon = newWeapon;
@@ -37,9 +36,17 @@ public class WeaponEquip : MonoBehaviour
 
     void SpawnWeapon(GameObject _w)
     {
-        w = Instantiate(_w,_weaponSpawnPoint.transform.position, Quaternion.identity) as GameObject;
-        w.transform.parent = _weaponSpawnPoint.transform.parent;
+        /* if (w!= null)
+         {
+             Destroy(w);
+         }
+         w = Instantiate(_w,_weaponSpawnPoint.transform.position, Quaternion.identity) as GameObject;
+         w.transform.parent = _weaponSpawnPoint.transform.parent;*/
 
+        for (int i = 0; i < _weapons.Count; i++)
+        {
+            _w.SetActive(true);
+        }
     }
 	
 	// Update is called once per frame
@@ -48,20 +55,32 @@ public class WeaponEquip : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             EquipWeapon(_weaponList[0]);
-            
+            _weapons[1].SetActive(false);
+            _weapons[2].SetActive(false);
+            _weapons[0].SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
            EquipWeapon(_weaponList[1]);
-            
+            _weapons[0].SetActive(false);
+            _weapons[2].SetActive(false);
+            _weapons[1].SetActive(true);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             EquipWeapon(_weaponList[2]);
-            
+            _weapons[0].SetActive(false);
+            _weapons[1].SetActive(false);
+            _weapons[2].SetActive(true);
         }
         equippedWeapon.Attack();
+
+        for (int i = 0; i < _weapons.Count; i++)
+        {
+            _weapons[i].transform.localScale = new Vector3(1, 1, 0);
+        }
 	}
 }
