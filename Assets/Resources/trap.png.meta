@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 9dd40f546aba84d2e8e98f8e6d9a644a
+timeCreated: 1458750252
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trap_0
+    21300002: trap_1
+    21300004: trap_2
+    21300006: trap_3
+    21300008: trap_4
+    21300010: trap_5
+    21300012: trap_6
+    21300014: trap_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: trap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 132.5, y: -85}
+        - {x: 135.5, y: -80}
+        - {x: 135.5, y: -32}
+        - {x: 132.5, y: -25}
+        - {x: 5.5, y: 52}
+        - {x: -46.5, y: 52}
+        - {x: -69.5, y: 35}
+        - {x: -69.5, y: -48}
+        - {x: -29.5, y: -85}
+        - {x: 1.5, y: -85}
+        - {x: 23.5, y: -79}
+        - {x: 23.5, y: -61}
+        - {x: 79.5, y: -84}
+        - {x: 84.5, y: -85}
+    - name: trap_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 780
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.5, y: 74}
+        - {x: -96.5, y: -85}
+        - {x: 17.5, y: -85}
+        - {x: 19.5, y: -77}
+        - {x: 19.5, y: -2}
+        - {x: 11.5, y: 74}
+      - - {x: 80.5, y: -44}
+        - {x: 62.5, y: -60}
+        - {x: 62.5, y: -69}
+        - {x: 64.5, y: -75}
+        - {x: 72.5, y: -78}
+        - {x: 142.5, y: -78}
+        - {x: 142.5, y: -55}
+        - {x: 138.5, y: -44}
+    - name: trap_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 780
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.5, y: 71}
+        - {x: -117.5, y: 14}
+        - {x: -117.5, y: -54}
+        - {x: -99.5, y: -85}
+        - {x: 14.5, y: -85}
+        - {x: 14.5, y: 7}
+        - {x: -9.5, y: 88}
+        - {x: -51.5, y: 88}
+      - - {x: 85.5, y: -34}
+        - {x: 70.5, y: -57}
+        - {x: 70.5, y: -81}
+        - {x: 136.5, y: -81}
+        - {x: 136.5, y: -49}
+        - {x: 119.5, y: -34}
+    - name: trap_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 4}
+        - {x: -121.5, y: -11}
+        - {x: -130.5, y: -25}
+        - {x: -130.5, y: -62}
+        - {x: -122.5, y: -82}
+        - {x: -94.5, y: -87}
+        - {x: 2.5, y: -87}
+        - {x: 8.5, y: -83}
+        - {x: 8.5, y: -28}
+        - {x: -10.5, y: 4}
+      - - {x: 91.5, y: -25}
+        - {x: 79.5, y: -46}
+        - {x: 79.5, y: -78}
+        - {x: 81.5, y: -83}
+        - {x: 116.5, y: -83}
+        - {x: 127.5, y: -80}
+        - {x: 127.5, y: -36}
+        - {x: 103.5, y: -25}
+    - name: trap_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 536
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -38}
+        - {x: -64.5, y: -43}
+        - {x: -64.5, y: -45}
+        - {x: -72.5, y: -45}
+        - {x: -71.5, y: -45}
+        - {x: -66.5, y: -43}
+        - {x: -43.5, y: -37}
+        - {x: -26.5, y: -32}
+        - {x: -22.5, y: -29}
+        - {x: -4.5, y: -17}
+        - {x: 0.5, y: -10}
+        - {x: 0.5, y: -7}
+        - {x: -4.5, y: 8}
+        - {x: -14.5, y: 8}
+        - {x: -38.5, y: -2}
+        - {x: -116.5, y: -33}
+        - {x: -134.5, y: -49}
+        - {x: -134.5, y: -66}
+        - {x: -117.5, y: -97}
+        - {x: -41.5, y: -97}
+        - {x: 0.5, y: -85}
+        - {x: 0.5, y: -46}
+        - {x: -12.5, y: -38}
+      - - {x: 123.5, y: -34}
+        - {x: 98.5, y: -25}
+        - {x: 88.5, y: -25}
+        - {x: 75.5, y: -48}
+        - {x: 75.5, y: -73}
+        - {x: 82.5, y: -83}
+        - {x: 125.5, y: -83}
+        - {x: 131.5, y: -79}
+        - {x: 131.5, y: -53}
+        - {x: 127.5, y: -41}
+    - name: trap_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 536
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: -28}
+        - {x: -116.5, y: -34}
+        - {x: -129.5, y: -39}
+        - {x: -134.5, y: -48}
+        - {x: -134.5, y: -98}
+        - {x: -19.5, y: -98}
+        - {x: 0.5, y: -89}
+        - {x: 1.5, y: -78}
+        - {x: 1.5, y: -37}
+        - {x: -8.5, y: -28}
+      - - {x: 100.5, y: -25}
+        - {x: 83.5, y: -25}
+        - {x: 71.5, y: -49}
+        - {x: 71.5, y: -70}
+        - {x: 79.5, y: -83}
+        - {x: 128.5, y: -83}
+        - {x: 135.5, y: -79}
+        - {x: 135.5, y: -39}
+    - name: trap_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: -28}
+        - {x: -116.5, y: -34}
+        - {x: -129.5, y: -39}
+        - {x: -134.5, y: -48}
+        - {x: -134.5, y: -98}
+        - {x: -19.5, y: -98}
+        - {x: 0.5, y: -89}
+        - {x: 1.5, y: -78}
+        - {x: 1.5, y: -37}
+        - {x: -8.5, y: -28}
+      - - {x: 100.5, y: -25}
+        - {x: 83.5, y: -25}
+        - {x: 71.5, y: -49}
+        - {x: 71.5, y: -70}
+        - {x: 79.5, y: -83}
+        - {x: 128.5, y: -83}
+        - {x: 135.5, y: -79}
+        - {x: 135.5, y: -39}
+    - name: trap_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 292
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -28}
+        - {x: -59.5, y: -28}
+        - {x: -132.5, y: -36}
+        - {x: -134.5, y: -42}
+        - {x: -134.5, y: -98}
+        - {x: -19.5, y: -98}
+        - {x: -0.5, y: -87}
+        - {x: 1.5, y: -78}
+        - {x: 1.5, y: -35}
+      - - {x: 100.5, y: -25}
+        - {x: 83.5, y: -25}
+        - {x: 71.5, y: -49}
+        - {x: 71.5, y: -70}
+        - {x: 79.5, y: -83}
+        - {x: 128.5, y: -83}
+        - {x: 135.5, y: -79}
+        - {x: 135.5, y: -39}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
