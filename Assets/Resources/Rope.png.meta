@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: d32bc0e902a4443efb5c495a1adda69e
+timeCreated: 1458771238
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rope_0
+    21300002: Rope_1
+    21300004: Rope_2
+    21300006: Rope_3
+    21300008: Rope_4
+    21300010: Rope_5
+    21300012: Rope_6
+    21300014: Rope_7
+    21300016: Rope_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rope_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 423
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rope_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 426
+        width: 111
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39}
+        - {x: -47.5, y: 8}
+        - {x: -55.5, y: -17}
+        - {x: -55.5, y: -39}
+        - {x: -32.5, y: -39}
+        - {x: 55.5, y: 2}
+        - {x: 55.5, y: 21}
+        - {x: 17.5, y: 39}
+      - - {x: 23.5, y: -13}
+        - {x: 22.5, y: -16}
+        - {x: 26.5, y: -20}
+        - {x: 28.5, y: -20}
+        - {x: 30.5, y: -18}
+        - {x: 30.5, y: -17}
+        - {x: 26.5, y: -13}
+    - name: Rope_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 415
+        width: 142
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 48.5}
+        - {x: -35, y: 34.5}
+        - {x: -45, y: 21.5}
+        - {x: -71, y: -15.5}
+        - {x: -71, y: -46.5}
+        - {x: -67, y: -48.5}
+        - {x: -46, y: -48.5}
+        - {x: 71, y: 5.5}
+        - {x: 71, y: 40.5}
+        - {x: 25, y: 48.5}
+      - - {x: 29, y: -14.5}
+        - {x: 28, y: -16.5}
+        - {x: 28, y: -21.5}
+        - {x: 32, y: -24.5}
+        - {x: 36, y: -24.5}
+        - {x: 38, y: -20.5}
+        - {x: 38, y: -18.5}
+        - {x: 34, y: -14.5}
+    - name: Rope_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 282
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 44}
+        - {x: -66, y: -44}
+        - {x: -3, y: -44}
+        - {x: 66, y: -3}
+        - {x: 66, y: 44}
+      - - {x: 26, y: -20}
+        - {x: 29, y: -23}
+        - {x: 33, y: -23}
+        - {x: 35, y: -22}
+        - {x: 35, y: -18}
+        - {x: 33, y: -14}
+        - {x: 27, y: -14}
+        - {x: 26, y: -16}
+    - name: Rope_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 284
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 42}
+        - {x: -12, y: 42}
+        - {x: -34, y: 32}
+        - {x: -57, y: -13}
+        - {x: -58, y: -17}
+        - {x: -58, y: -40}
+        - {x: -53, y: -42}
+        - {x: -39, y: -42}
+        - {x: 55, y: 1}
+        - {x: 58, y: 3}
+        - {x: 58, y: 30}
+      - - {x: 24, y: -12}
+        - {x: 23, y: -14}
+        - {x: 23, y: -18}
+        - {x: 27, y: -21}
+        - {x: 28, y: -21}
+        - {x: 31, y: -18}
+        - {x: 31, y: -16}
+        - {x: 27, y: -12}
+    - name: Rope_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 284
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 42}
+        - {x: -53, y: 27}
+        - {x: -62, y: -2}
+        - {x: -62, y: -42}
+        - {x: -38, y: -42}
+        - {x: 62, y: 0}
+        - {x: 62, y: 33}
+        - {x: 49, y: 42}
+      - - {x: 29, y: -13}
+        - {x: 25, y: -13}
+        - {x: 24, y: -15}
+        - {x: 24, y: -19}
+        - {x: 28, y: -22}
+        - {x: 30, y: -22}
+        - {x: 33, y: -19}
+        - {x: 33, y: -16}
+    - name: Rope_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 44}
+        - {x: -66, y: -44}
+        - {x: -3, y: -44}
+        - {x: 66, y: -3}
+        - {x: 66, y: 44}
+      - - {x: 26, y: -20}
+        - {x: 29, y: -23}
+        - {x: 33, y: -23}
+        - {x: 35, y: -22}
+        - {x: 35, y: -18}
+        - {x: 33, y: -14}
+        - {x: 27, y: -14}
+        - {x: 26, y: -16}
+    - name: Rope_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 140
+        width: 138
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 48}
+        - {x: -14, y: 48}
+        - {x: -29, y: 44}
+        - {x: -69, y: -10}
+        - {x: -69, y: -48}
+        - {x: -34, y: -48}
+        - {x: 69, y: -2}
+        - {x: 69, y: 26}
+        - {x: 67, y: 28}
+      - - {x: 29, y: -15}
+        - {x: 28, y: -17}
+        - {x: 28, y: -21}
+        - {x: 32, y: -24}
+        - {x: 34, y: -24}
+        - {x: 37, y: -21}
+        - {x: 37, y: -19}
+        - {x: 33, y: -15}
+    - name: Rope_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 139
+        width: 142
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 49}
+        - {x: -46, y: 43}
+        - {x: -71, y: -14}
+        - {x: -71, y: -49}
+        - {x: -43, y: -49}
+        - {x: 71, y: 2}
+        - {x: 71, y: 30}
+        - {x: 36, y: 49}
+      - - {x: 29, y: -15}
+        - {x: 28, y: -17}
+        - {x: 28, y: -22}
+        - {x: 32, y: -25}
+        - {x: 36, y: -25}
+        - {x: 38, y: -21}
+        - {x: 38, y: -19}
+        - {x: 34, y: -15}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

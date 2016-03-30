@@ -26,7 +26,6 @@ public class WeaponEquip : MonoBehaviour
         {
             _weapons[i].SetActive(false);
         }
-        
     }
     
     public void EquipWeapon(IWeapon newWeapon)
@@ -36,13 +35,6 @@ public class WeaponEquip : MonoBehaviour
 
     void SpawnWeapon(GameObject _w)
     {
-        /* if (w!= null)
-         {
-             Destroy(w);
-         }
-         w = Instantiate(_w,_weaponSpawnPoint.transform.position, Quaternion.identity) as GameObject;
-         w.transform.parent = _weaponSpawnPoint.transform.parent;*/
-
         for (int i = 0; i < _weapons.Count; i++)
         {
             _w.SetActive(true);
@@ -76,7 +68,6 @@ public class WeaponEquip : MonoBehaviour
             _weapons[1].SetActive(false);
             _weapons[2].SetActive(true);
         }
-        equippedWeapon.Attack();
 
         for (int i = 0; i < _weapons.Count; i++)
         {

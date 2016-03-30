@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: d793150da16b44414ba7a31024525edf
+timeCreated: 1458765225
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bone_0
+    21300002: bone_1
+    21300004: bone_2
+    21300006: bone_3
+    21300008: bone_4
+    21300010: bone_5
+    21300012: bone_6
+    21300014: bone_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bone_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 394
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: -47}
+        - {x: -35, y: -51}
+        - {x: -9, y: -51}
+        - {x: 42, y: 22}
+        - {x: 42, y: 51}
+        - {x: 17, y: 51}
+        - {x: -42, y: 4}
+    - name: bone_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 378
+        width: 110
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 67}
+        - {x: -55, y: -35}
+        - {x: -55, y: -62}
+        - {x: -54, y: -65}
+        - {x: -52, y: -67}
+        - {x: -21, y: -67}
+        - {x: 55, y: 18}
+        - {x: 55, y: 63}
+        - {x: 45, y: 67}
+    - name: bone_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 212
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 58}
+        - {x: -48, y: -28}
+        - {x: -48, y: -58}
+        - {x: 2, y: -58}
+        - {x: 48, y: 24}
+        - {x: 48, y: 57}
+        - {x: 44, y: 58}
+    - name: bone_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 220
+        width: 82
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 50}
+        - {x: -41, y: -18}
+        - {x: -41, y: -50}
+        - {x: -17, y: -50}
+        - {x: 41, y: 23}
+        - {x: 41, y: 40}
+        - {x: 33, y: 50}
+    - name: bone_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 215
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 55.5}
+        - {x: -45.5, y: -29.5}
+        - {x: -45.5, y: -52.5}
+        - {x: -44.5, y: -55.5}
+        - {x: -43.5, y: -56.5}
+        - {x: -15.5, y: -56.5}
+        - {x: 45.5, y: 5.5}
+        - {x: 45.5, y: 49.5}
+        - {x: 35.5, y: 55.5}
+    - name: bone_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 102
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 62}
+        - {x: -51, y: -5}
+        - {x: -51, y: -58}
+        - {x: -43, y: -62}
+        - {x: -14, y: -62}
+        - {x: 51, y: 32}
+        - {x: 51, y: 62}
+    - name: bone_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 28
+        width: 110
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 67}
+        - {x: -55, y: -35}
+        - {x: -55, y: -62}
+        - {x: -54, y: -65}
+        - {x: -52, y: -67}
+        - {x: -21, y: -67}
+        - {x: 55, y: 18}
+        - {x: 55, y: 63}
+        - {x: 45, y: 67}
+    - name: bone_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 387
+        width: 123
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

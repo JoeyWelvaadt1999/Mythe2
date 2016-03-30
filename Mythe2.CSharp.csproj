@@ -100,6 +100,7 @@
     <Compile Include="Assets\Scripts\UI\InventoryBar.cs" />
     <Compile Include="Assets\Scripts\UI\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\UI\InventorySlotAlign.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Utils\Camera\CameraBounds.cs" />
     <Compile Include="Assets\Scripts\Utils\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Utils\Camera\CameraZoom.cs" />
