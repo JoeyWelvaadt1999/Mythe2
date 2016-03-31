@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Bart/test_bart.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> 413f01690dc3214356d8f20d3d54b50c184ca48c
+- path: Assets/Scenes/endMenu.unity
   isLoaded: 1
   isActive: 1

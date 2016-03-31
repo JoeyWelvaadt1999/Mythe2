@@ -14,6 +14,8 @@ public class EnemySpawner : MonoBehaviour
 
     private bool _enemySpawned = false;
 
+    private float _respawnTime = 60;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -28,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        _playerCollider = Physics2D.OverlapCircle(this.transform.position, _overlapRadius);
+        _playerCollider = Physics2D.OverlapCircle(transform.position, _overlapRadius, 1 << LayerMask.NameToLayer("Player"));
 
         if (_playerCollider)
         {
@@ -38,7 +40,15 @@ public class EnemySpawner : MonoBehaviour
             {
                 Instantiate(randomEnemy, new Vector3(transform.position.x, transform.position.y), Quaternion.identity);
                 _enemySpawned = true;
+                StartCoroutine(InitiateRespawnTime());
             }
         }
+    }
+
+    IEnumerator InitiateRespawnTime()
+    {
+        yield return new WaitForSeconds(_respawnTime);
+        Debug.Log("Respawn can now be done again");
+        //_enemySpawned = false;
     }
 }
