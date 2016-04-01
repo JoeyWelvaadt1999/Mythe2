@@ -9,11 +9,10 @@ public class PropSpawner : MonoBehaviour
     [SerializeField]
     private List<GameObject> _propList = new List<GameObject>();
 
-    private float _maxProps = 200;//maximum amount of props that will be instantiated
+    private float _maxProps = 200;
 
     private float _maxClusters = 3;
-    private float _currentClusterAmount = 0;
-
+    
     private GameObject _treeCluster;
     private Vector2 _clusterBounds;
 
@@ -22,12 +21,12 @@ public class PropSpawner : MonoBehaviour
     private float _minClusterHeight = 5;
     private float _maxClusterHeight = 15;
 
-    //private float _minDis = 1; //minimal distance between props/propclusters
-    //private float _maxDis = 10; //maximal distance ^
+    private float _minDistance = 3; //minimal distance between props/propclusters
+    private List<Vector3> _propPositions = new List<Vector3>();
 
     void Start()
     {
-        CreateTreeCluster();
+        //CreateTreeCluster();
         PlaceProps();
     }
 
@@ -36,22 +35,44 @@ public class PropSpawner : MonoBehaviour
     {
         for (int i = 0; i < _maxProps; i++)
         {
-            //TO DO
-            //minimal distance between props
+            Vector3 randomPos;
+            
+            while (true)
+            {
+                //create random position
+                randomPos = new Vector3(
+                Random.Range(-_bounds.x, _bounds.x),
+                Random.Range(-_bounds.y, _bounds.y),
+                0);
 
-            //new position every loop iteration
-            float randomPosX = Random.Range(-_bounds.x, _bounds.x);
-            float randomPosY = Random.Range(-_bounds.y, _bounds.y);
+                bool succeed = true;
 
-            //random gameobject every iteration
-            GameObject randomProp = _propList[Random.Range(0, _propList.Count)];
+                //loop through all positions
+                foreach(Vector3 other in _propPositions)
+                {
+                    //check distance between 'other' and new position
+                    if(Vector3.Distance(other, randomPos) < _minDistance)
+                    {
+                        succeed = false;
 
-            Instantiate(randomProp, new Vector3(randomPosX, randomPosY, 0), Quaternion.identity);
+                        //stops it from looking further
+                        break;
+                    }
+                }
+
+                //stops it from creating new position
+                if (succeed)
+                    break;
+            }
+            //instantiating prop and adding position to 'other'
+            GameObject randomProp = (GameObject)Instantiate(_propList[Random.Range(0, _propList.Count)], randomPos, Quaternion.identity);
+            _propPositions.Add(randomProp.transform.position);
         }
     }
 
     void CreateTreeCluster()
     {
+        //no more than 3 clusters
         for (int i = 0; i < _maxClusters; i++)
         {
             _clusterBounds = new Vector2(
@@ -59,8 +80,9 @@ public class PropSpawner : MonoBehaviour
             Random.Range(_minClusterHeight, _maxClusterHeight)
             );
 
-
             _treeCluster = new GameObject();
+
+            //creating a cluster of trees
             for (int x = 0; x < _clusterBounds.x; x++)
             {
                 for (int y = 0; y < _clusterBounds.y; y++)
@@ -73,8 +95,6 @@ public class PropSpawner : MonoBehaviour
                     treeClone.transform.parent = _treeCluster.transform;
                 }
             }
-
-            //random treeCluster position
         }
     }
 }

@@ -49,6 +49,6 @@ public class EnemySpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(_respawnTime);
         Debug.Log("Respawn can now be done again");
-        //_enemySpawned = false;
+        _enemySpawned = false;
     }
 }
